@@ -1,6 +1,9 @@
-# boilerplate
+# New starter kit with Vue.js Nuxt.js Contenful
 
-> My posh Nuxt.js project
+> Website starter kit with Vue.js Nuxt.js connected to Contenful space. It's here for me to copy it faster not for display.
+But if you find something useful go ahead.
+
+![Nuxt image](https://madewithnetwork.ams3.cdn.digitaloceanspaces.com/spatie-space-production/3075/nuxtjs-2.jpg)
 
 ## Build Setup
 
