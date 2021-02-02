@@ -1,0 +1,90 @@
+
+$spacer: 1rem;
+
+$spacers: ();
+
+$s1: $spacer * 1;
+$s2: $spacer * 2;
+$s3: $spacer * 3;
+$s4: $spacer * 5;
+$s5: $spacer * 8;
+$s6: $spacer * 16;
+$s7: $spacer * .5;
+$s10: 25vw;
+$s20: 40vw;
+$s30: ($s10 + $s20);
+
+$spacers: map-merge((
+  0: 0,
+  small: ($spacer * .5),
+  1: ($s1),
+  2: ($s2),
+  3: ($s3),
+  4: ($s4),
+  5: ($s5),
+  6: ($s6),
+  7: ($s7)),
+$spacers);
+
+
+$font-family-sans-serif: "Sailec-Regular";
+
+
+$font-size-base:              1rem; // on 1900 px width 1rem is 24px
+
+$h1-font-size:                $font-size-base * 8.78;
+$h2-font-size:                $font-size-base * 8.23;
+$h3-font-size:                $font-size-base * 7.4;
+$h4-font-size:                $font-size-base * 4.95;
+$h5-font-size:                $font-size-base * 4.4;
+$h6-font-size:                $font-size-base * 2.2;
+
+$medium-font-size:            1.98rem;
+$small-font-size:             1.65rem;
+$tiny-font-size:              .88rem;
+$tinyv2-font-size:            .7rem;
+
+
+$display1-size:               13vw;
+$display2-size:               11.5vw;
+$display3-size:               11rem;
+$display4-size:               9.9rem;
+
+$headings-line-height:        1.1 !default;
+$headings-font-weight:        normal !default;
+
+$display1-weight:             300 !default;
+$display2-weight:             300 !default;
+$display3-weight:             300 !default;
+$display4-weight:             300 !default;
+$display-line-height:         $headings-line-height !default;
+
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: ();
+$sizes: map-merge((
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%,
+  auto: auto
+), $sizes);
+
+$grid-gutter-width: 0;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1100px,
+  xlg: 1400px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xlg: 1500px
+);

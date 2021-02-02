@@ -1,0 +1,22 @@
+.btn {
+    transition: .4s;
+    &.fullwidth-btn {
+        width: 100%;
+        border: 1px solid $white;
+        text-align: center;
+        padding: 1.5rem 0;
+        border-radius: 0;
+        color: $white;
+        @include media-breakpoint-up(md) {
+            padding: 2.5rem 0;
+        }
+        span {
+            position: relative;
+            top: 3px;
+        }
+        &:hover {
+            background-color: $white;
+            color: $black;
+        }
+    }
+}

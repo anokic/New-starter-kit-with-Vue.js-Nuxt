@@ -1,0 +1,20 @@
+.color {
+    &-white {
+        color: $white;
+    }
+    &-black {
+        color: $black;
+    }
+}
+
+.bg {
+    &-white {
+        background-color: $white;
+    }
+    &-black {
+        background-color: $black;
+    }
+    &-blackv2{
+        background-color: $blackv2;
+    }
+}

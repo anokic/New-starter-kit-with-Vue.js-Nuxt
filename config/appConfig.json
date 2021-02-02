@@ -1,0 +1,27 @@
+{
+    "entities_with_url": {
+        "page": {
+            "fields": "fields.slug,fields.title,fields.isHp",
+            "type": "default"
+        }
+    },
+
+    "query_urls": [],
+
+    "richFields": [
+        "content"
+    ],
+    "dateFormat": "dd.mm.yyyy",
+    "dateFields": [
+        "date"
+    ],
+    "excludeFromFetch": [
+        ""
+    ],
+    "pageTemplates": {
+        "page": "BasicPage"
+    },
+
+    "_comment": "{'page': (name of the page that has to be reduced), 'fieldsToReduce' : [{'path' : (path to the field that needs to be reduced), 'fieldsToKeep' : [array of fields(keys) that should be kept]}]}",
+    "pagesToReduce": []
+}

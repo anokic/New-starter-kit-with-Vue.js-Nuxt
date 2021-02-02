@@ -1,0 +1,89 @@
+body,html{
+  color: $bodyColor;
+  font-family: $regularFont;
+  letter-spacing: normal;
+  font-weight: $headings-font-weight;
+}
+
+.canela-thin {
+    font-family: 'Canela-Thin';
+}
+
+.canela-light {
+  font-family: 'Canela-Light';
+}
+
+.canela-light-italic {
+  font-family: 'Canela-LightItalic';
+}
+
+.italic {
+    font-style: italic;
+}
+
+.medium {
+    font-size: $medium-font-size;
+}
+
+.small {
+    font-size: $small-font-size;
+}
+
+.tiny {
+    font-size: $tiny-font-size;
+}
+
+.tinyv2 {
+    font-size: $tinyv2-font-size;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, .small, .tiny {
+    p,
+    a,
+    span,
+    li {
+        font-size: inherit !important;
+    }
+}
+
+p,
+a,
+span,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+// RESPONSIVE
+html {
+  font-size: 18px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.3vw;
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: .95vw;
+  }
+}
+
+// RESPONSIVE FONT CLASSES
+@include media-breakpoint-down(lg) {
+}
+
+@include media-breakpoint-down(md) {
+}
+
+@include media-breakpoint-down(sm) {
+    .display-2 {
+        font-size: $display2-size * 1.4;
+    }
+    // .medium {
+    //     font-size: $medium-font-size *.5;
+    // }
+}
