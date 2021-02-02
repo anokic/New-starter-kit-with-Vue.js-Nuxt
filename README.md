@@ -4,7 +4,6 @@
 But if you find something useful go ahead.
 
 ![Nuxt image](https://madewithnetwork.ams3.cdn.digitaloceanspaces.com/spatie-space-production/3075/nuxtjs-2.jpg)
-
 ## Build Setup
 
 ``` bash
